@@ -26,6 +26,9 @@ window.addEventListener('scroll', e => {
 window.addEventListener('resize', e => {
   wI = window.innerHeight;
   scrollable = sfO - wI;
-  start = scrollable;
-  console.log(start);
+  if (start >= 0) {
+    start = scrollable;
+    sidebar_fixed.style.top = -start + 'px';
+    console.log(start);
+  }
 });
