@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 16rem auto;
+}
+.sidebar {
+  position: fixed;
+  width: 16rem;
+  height: 100%;
+  background: green;
+}
+.sidebar_fixed {
+  width: 16rem;
+  position: absolute;
+  top: 0;
+}
+.sidebar_fixed {
+  line-height: 1.5;
+}
+.sidebar_fixed p {
+  font-size: 1.2rem;
+  margin-bottom: 1em;
+}
+.section {
+  height: 500px;
+  padding: 0 2em;
+  border-bottom: 2px solid #ccc;
+}
